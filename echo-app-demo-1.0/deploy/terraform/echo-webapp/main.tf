@@ -1,12 +1,11 @@
 terraform {
   backend "azurerm" {
-        resource_group_name  = "tf-storage-rg"
-        storage_account_name = "echoapptfbackend"
+        resource_group_name  = "jcatino-tfstate-rg"
+        storage_account_name = "jcatinotfstatestg"
         container_name       = "tfstate"
         key                  = "terraform.tfstate"
     }
 }
-
 provider "azurerm" {
   use_oidc = true
   features {}
