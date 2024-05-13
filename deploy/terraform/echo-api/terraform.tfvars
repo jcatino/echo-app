@@ -1,4 +1,4 @@
-appName = "tbernardo-echo-app"
+appName = "jcatino-echo-app"
 appServiceName = "api"
 dbName = "my-echodb"
 dbAdmin = "dbadmin"
